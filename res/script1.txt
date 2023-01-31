@@ -1,0 +1,20 @@
+create first
+current first
+load newyork.png
+blur
+grayscale
+export blurredandgray.jpg
+invisible
+create second
+current second
+load newyork.ppm
+sepia
+sharpen
+sharpen
+save firstScript.png
+current first
+visible
+remove second
+save firstScript2.ppm
+open firstScript
+current second

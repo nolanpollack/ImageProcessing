@@ -1,0 +1,53 @@
+The center of the GUI is where the topmost layer's photo will be displayed, if it exists. If operations are
+applied to the topmost layer, the changes will be seen in the photo. It is initially empty since the layer
+collection is empty.
+
+When the GUI is first opened, it has a group of button at the top that shows all of the 
+available features for the view. 
+- The blur button will apply the blur filter on the current
+layer's photo when pressed.
+- The sharpen button will apply the sharpen filter on the current
+layer's photo when pressed.
+- The grayscale button will apply the grayscale filter on the current
+layer's photo when pressed.
+- The sepia button will apply the sepia filter on the current
+layer's photo when pressed.
+- The mosaic button will apply the mosaic filter on the current
+layer's photo. When pressed, a box will pop up asking for the number of seeds
+for the filter desired, then the filter will be applied if a valid number is given.
+- The save button will save the entire collection of files into a folder with a txt
+file locating all of the layers. When pressed, the user can choose the name of the
+folder saved, as well as its location.
+- The open button will ask for the user to choose the folder of layers to choose from
+their computer. Once correctly chosen, the folder will be opened in the GUI, the topmost
+photo will be shown (if it exists), and a list of all the layers with their names will be 
+shown on the right.
+- The checkerboard button will prompt the user for the number of rows, columns, two colors, and
+and the desired size of the tiles. If all inputs are valid, a checkerboard image with those specificities
+will be create for the current layer's photo.
+- The export button will export the topmost visible photo from this collection. When pressed, it will ask 
+what format the photo should be exported into (jpg, png, ppm).
+- The load button will ask for a user to choose a jpg, png, or pmm file. When chosen, that photo will be imported
+into the current layer's photo, if it has a valid height and width for the collection.
+- The reset button will remove all layers, the topmost visible photo, and will reset the entire model of its data.
+- The remove button will prompt the user for the name of the layer to remove. If the name is found, that layer will be
+removed from the model and the selection list from the right of the GUI. 
+- The create button will prompt the user for the name of the new layer to create. If not in use, a new layer with that name will
+be created in the model, and added into the selection list from the right of the GUI.
+- The make invisible button will make the current layer's visibility to be false, and will adjust the topmost visible photo
+shown in the GUI if necessary.
+- The make visible button will make the current layer's visibility to be true and will adjust the topmost visible photo
+shown in the GUI if necessary.
+
+There is a button on the very bottom that will execute a
+script for the model from a file. When pressed, the user will be able to choose a .txt file, and 
+the view will execute it accordingly. 
+
+The GUI has a menu bar with all the option in the top left corner. By clicking any of the items in the menu, 
+the user can do the same thing as when clicking its respective button.
+
+As layers are added to the model, they will appear in a selection list at the right side of the GUI. The list shows the name of
+each layer in the collection. When one of the layer names are pressed, that specific layer will become the current layer of the model, and
+the user will be told accordingly. 
+
+Any errors throughout the process of pressing any buttons will be shown through a box at the center of the GUI.

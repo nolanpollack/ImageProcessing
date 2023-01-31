@@ -1,0 +1,2 @@
+C:\Users\andra\Documents\OOD IntelliJ IDEA\OOD Workspace\ImageView\testSaveAction/layer1.png
+C:\Users\andra\Documents\OOD IntelliJ IDEA\OOD Workspace\ImageView\testSaveAction/layer2.png

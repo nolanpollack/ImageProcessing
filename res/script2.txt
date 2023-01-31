@@ -1,0 +1,5 @@
+reset
+create checkerboardlayer
+current checkerboardlayer
+checkerboard 1 2 255 255 0 0 0 0 255 1
+export checkerboard.png
